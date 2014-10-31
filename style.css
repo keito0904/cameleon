@@ -381,3 +381,28 @@ ul{
     width: auto;
   }
 }
+
+@media(max-width: 800px){
+  .feature .feature-box .box-inner{
+    padding: 0px 15px;
+  }
+  .kind-box .box-inner{
+    padding: 0px 25px;
+  }
+  .cameleon-back .inner .content h1{
+    font-size: 35px;
+    padding: 0px 20px;
+  }
+  .breeding .content .breeding-box .box-inner{
+    padding: 20px 25px;
+  }
+  .comments .comment{
+    display: block;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 0px auto 30px;
+  }
+  .comments .comment .text{
+    min-height: 120px;
+  }
+}
