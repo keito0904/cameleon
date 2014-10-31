@@ -243,3 +243,22 @@ ul{
 .cameleon-back.back1{
   background-image: url(img/cameleon-back1.jpg);
 }
+
+.breeding .content{
+  text-align: center;
+}
+.breeding .content p{
+  font-size: 16px;
+  line-height: 1.8;
+  padding:0px 50px;
+}
+.breeding .content .breeding-box{
+  float: left;
+  width: 33.3%;
+}
+.breeding .content .breeding-box .box-inner{
+  padding: 20px 50px;
+}
+.breeding .content .breeding-box .box-inner img{
+  width: 100%;
+}
