@@ -36,3 +36,21 @@ ul{
   display: table;
   text-align: center;
 }
+.top-bar{
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #FF432B 0%, #FCB000 16.6%, #FFE720 33.2%, #51C600 49.8%, #005CE6 66.4%, #7200BD 83.39999999999999%, #EC00C5 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #FF432B 0%, #FCB000 16.6%, #FFE720 33.2%, #51C600 49.8%, #005CE6 66.4%, #7200BD 83.39999999999999%, #EC00C5 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #FF432B 0%, #FCB000 16.6%, #FFE720 33.2%, #51C600 49.8%, #005CE6 66.4%, #7200BD 83.39999999999999%, #EC00C5 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF432B), color-stop(0.166, #FCB000), color-stop(0.332, #FFE720), color-stop(0.498, #51C600), color-stop(0.664, #005CE6), color-stop(0.834, #7200BD), color-stop(1, #EC00C5));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #FF432B 0%, #FCB000 16.6%, #FFE720 33.2%, #51C600 49.8%, #005CE6 66.4%, #7200BD 83.39999999999999%, #EC00C5 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #FF432B 0%, #FCB000 16.6%, #FFE720 33.2%, #51C600 49.8%, #005CE6 66.4%, #7200BD 83.39999999999999%, #EC00C5 100%);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 8px;
+}
