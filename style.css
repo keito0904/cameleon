@@ -266,3 +266,65 @@ ul{
 .breeding .content .breeding-box .box-inner img{
   width: 100%;
 }
+
+.comments{
+  display: table;
+  border-collapse: separate;
+  border-spacing: 35px 0px;
+}
+.comments .comment{
+  display: table-cell;
+  width: 33.3%;
+  position: relative;
+
+}
+.comments .comment .box{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 4px 0px rgba(45,117,49,0.8);
+  position: relative;
+}
+.comments .comment .box:before{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 100%;
+  left: 50%;
+  border: 28px solid transparent;
+  border-top: 28px solid rgba(45,117,49,0.8);
+  margin-left: -25px;
+  }
+.comments .comment .box:after{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 100%;
+  left: 50%;
+  border: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  margin-left: -25px;
+  }
+.comments .comment .text{
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px 20px 70px 20px;
+  min-height: 200px;
+}
+.comments .comment .name{
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0px 20px 20px;
+  font-size: 14px;
+  color: #999
+}
+.comments .comment .image{
+  margin-top: 45px;
+  text-align:center;
+}
+.comments .comment .image img{
+  width: 140px;
+  border-radius: 100px;
+  border: 6px solid rgba(255,255,255,0.9);
+}
