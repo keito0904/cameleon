@@ -406,3 +406,57 @@ ul{
     min-height: 120px;
   }
 }
+
+@media(max-width: 500px){
+  .btn{
+    width: 70%;
+  }
+  .top-back{
+    height: 480px;
+  }
+  .top-back .logo{
+    left: 20px;
+  }
+  .top-back .logo img{
+    width: 150px;
+  }
+  .top-image img{
+    min-width: 80%;
+  }
+  .main-content h1{
+    font-size: 30px;
+  }
+  .feature .content{
+    letter-spacing: -.40em;
+  }
+  .feature .feature-box{
+    float: none;
+    width: 50%;
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: middle;
+  }
+  .kind-box{
+    float: none;
+    width: 60%;
+    margin: 0 auto 30px;
+  }
+  .kind-box p{
+    margin: 5px;
+  }
+  .cameleon-back{
+    height: 480px;
+  }
+  .cameleon-back .inner .content h1{
+    font-size: 32px;
+  }
+  .breeding .content p{
+    padding: 0px 20px;
+  }
+  .breeding .content .breeding-box .box-inner{
+    padding: 20px 10px;
+  }
+  .comments .comment{
+    width: 100%
+  }
+}
