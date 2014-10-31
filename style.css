@@ -131,6 +131,10 @@ ul{
   height: 34px;
   background-color: #f5f5f5;
 }
+.bar .back-green{
+  height: 34px;
+  background-color: #3b9942;
+}
 .bar-left{
   float:left;
   width: 50%;
