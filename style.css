@@ -239,9 +239,13 @@ ul{
 .cameleon-back .inner .content h1{
   color: #fff;
   font-size: 40px;
+  padding-bottom: 0px;
 }
 .cameleon-back.back1{
   background-image: url(img/cameleon-back1.jpg);
+}
+.cameleon-back.back2{
+  background-image: url(img/cameleon-back2.jpg);
 }
 
 .breeding .content{
