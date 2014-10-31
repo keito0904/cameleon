@@ -452,6 +452,7 @@ ul{
   }
   .breeding .content p{
     padding: 0px 20px;
+    word-wrap: break-word;
   }
   .breeding .content .breeding-box .box-inner{
     padding: 20px 10px;
